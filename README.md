@@ -1,19 +1,19 @@
 # Berlin Marathon Data Analysis
 
-In this project I utilise data analysis methods using python to compare data from the 2009 and 2017 Berlin Marathon. Both datasets contain over 35,000 entries.
-The aim of this project was to identify any evidence of advancements in marathon preparation, pacing strategies, etc., visible in the comparison of the results. 
+In this project I utilised data analysis methods using python to compare data from the 2009 and 2017 Berlin Marathons. Both datasets contain over 35,000 entries.
+The aim of this project was to identify any evidence of advancements in marathon preparation, pacing strategies, training technology etc., visible in the comparison of the results. 
 
 ## Python Libraries Utilised
 - pandas
 - seaborn
-- atplotlib
+- matplotlib
 - numpy
 
 ## Approach / Data Preparation 
 I translated the german column headings to english to allow for more coherent analysis.
 
 Entries featuring columns with missing data were removed (approximately 55 entries)
-Signs of data entry errors as a supposed 108 year old competed in the 2009 Berlin Marathon according to the dataset. This entry was also removed.
+There were some signs of data entry errors as a supposed 108 year old competed in the 2009 Berlin Marathon according to the dataset. This entry was also removed.
 
 ## Data Augmentation
 The following columns were created from existing columns
@@ -28,7 +28,7 @@ The following columns were created from existing columns
 - split (denotes a positive/even/neutral split of each runner)
 
 ## Data Analysis
-The following analysis was performed on the 2009 Berlin Marathon data and validated on the 2017 Berling marathon data.
+The following analysis was performed on the 2009 Berlin Marathon data and validated on the 2017 Berlin marathon data.
 - Data Characterisation
 - Gender breakdown of competitors
 - Distribution of finishing times between genders
@@ -48,4 +48,7 @@ The following analysis was performed on the 2009 Berlin Marathon data and valida
 - Increase in number of even splits in 2017 when comared to 2009
 - Increase in percentage of female competitors in 2017 compared to 2009
 - Age had a very minimal correlation with pacing for both marathons
-- The perforamnce of age groups 18-20, 21-30, 31-35 improved and reduced the gap to the 36-40 age group from 2009 to 2017
+- The performance of age groups 18-20, 21-30, 31-35 improved and reduced the gap to the 36-40 age group from 2009 to 2017
+
+## Conclusions
+After performing my analysis I can conclude that there is a clear improvement in the performance of athletes from the 2009 Berlin Marathon to the 2017 Berlin Marathon. This improvement could be due to advancements in training technologies or advancements in health and fitness sciences in the years between both marathons. 
